@@ -17,7 +17,7 @@ import com.shirleen.chamaapp.ui.screens.splashscreen.SplashScreen
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = ROUT_SPLASH,
+    startDestination: String = ROUT_ADMIN_DASHBOARD,
 
     ){
     NavHost(
